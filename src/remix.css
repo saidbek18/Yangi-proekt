@@ -1,0 +1,141 @@
+
+
+.remix {
+    background: linear-gradient(to bottom, #0e0e0e, #1c1c1c);
+    padding: 80px 20px;
+    text-align: center;
+    color: white;
+  }
+  
+
+
+
+
+
+  .remix-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 50px;
+  }
+  
+
+
+
+
+  .remix-card {
+    background: #1b1b1b;
+    border-radius: 12px;
+    padding: 20px 25px;
+    max-width: 320px;
+    color: white;
+    box-shadow: 0 0 10px rgba(255, 215, 0, 0.1);
+    position: relative;
+    border: 1px solid #2a2a2a;
+    text-align: left;
+  }
+  
+
+
+
+  .check-icon {
+    color: #fdd835;
+    width: 28px;
+    height: 28px;
+    margin-bottom: 12px;
+  }
+  
+
+
+  .arrow-icon {
+    font-size: 30px;
+    color: #fdd835;
+    margin-bottom: 40px;
+    animation: bounce 2s infinite;
+  }
+  
+
+
+
+  @keyframes bounce {
+    0%, 100% {
+      transform: translateY(0px);
+    }
+    50% {
+      transform: translateY(10px);
+    }
+  }
+  
+
+
+
+  .remix-form {
+    background: #1a1a1a;
+    padding: 40px 20px;
+    border-radius: 16px;
+    max-width: 800px;
+    margin: 0 auto;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+  }
+  
+
+
+  .remix-form h2 {
+    color: white;
+    margin-bottom: 10px;
+    font-size: 24px;
+  }
+  
+  .remix-form p {
+    color: #ccc;
+    margin-bottom: 30px;
+    line-height: 1.5;
+  }
+  
+
+
+
+
+  .remix-form span {
+    color: #fdd835;
+    font-weight: bold;
+  }
+  
+  .form-inputs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;
+    margin-bottom: 24px;
+  }
+  
+
+
+
+
+  .form-inputs input {
+    padding: 12px 16px;
+    border-radius: 8px;
+    border: none;
+    flex: 1 1 200px;
+    max-width: 250px;
+    font-size: 16px;
+  }
+  
+  .join-btn {
+    background-color: #fdd835;
+    color: black;
+    font-weight: 600;
+    border: none;
+    padding: 14px 30px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  
+  .join-btn:hover {
+    background-color: #ffe85a;
+  }
+  

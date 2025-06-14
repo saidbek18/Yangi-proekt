@@ -1,0 +1,83 @@
+.klub {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: radial-gradient(ellipse at center, #1e1e1e 40%, #000 100%);
+    padding: 80px 20px;
+    position: relative;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+
+
+  .klub-person {
+    max-height: 400px;
+    object-fit: contain;
+  }
+  
+  .klub-person.left {
+    margin-right: -30px;
+  }
+  
+
+
+  .klub-person.right {
+    margin-left: -30px;
+  }
+  
+  .klub-center {
+    max-width: 600px;
+    text-align: center;
+    color: #fff;
+  }
+
+
+  
+  .klub-logo {
+    width: 120px;
+    margin-bottom: 20px;
+  }
+  
+  .klub-title {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 16px;
+  }
+  
+
+
+  .klub-subtext {
+    font-size: 16px;
+    color: #ccc;
+    margin-bottom: 10px;
+  }
+  
+  .klub-description {
+    font-size: 14px;
+    color: #aaa;
+    margin-bottom: 25px;
+    line-height: 1.6;
+  }
+
+
+
+  
+  .klub-button {
+    background: #f3cd5b;
+    color: #000;
+    font-weight: bold;
+    padding: 12px 28px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 0.3s;
+    box-shadow: 0 4px 15px rgba(243, 205, 91, 0.3);
+  }
+  
+  .klub-button:hover {
+    background: #ffe88a;
+    box-shadow: 0 6px 20px rgba(243, 205, 91, 0.5);
+  }
+  
+  

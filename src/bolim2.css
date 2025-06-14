@@ -1,0 +1,87 @@
+.bolim2 {
+    padding: 80px 20px;
+    background: linear-gradient(to right, #0c0c0e, #1a1a1f);
+    color: white;
+    text-align: center;
+  }
+  
+
+
+  .bolim2-header {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 50px;
+    color: #e0e0e0;
+  }
+  
+
+
+  .stats-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+
+
+  
+  .card {
+    border-radius: 16px;
+    padding: 25px 30px;
+    width: 230px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.25);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .card .growth {
+    color: #93FF7A;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+
+  
+  .card .growth1 {
+    color: #1d1d1d;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+
+
+  .card .value {
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  
+  .card .desc {
+    font-size: 14px;
+    color: #ccc;
+  }
+
+
+
+
+  .card .desc1 {
+    font-size: 14px;
+    color: #080808;
+  }
+  
+  .card.yellow {
+    background: linear-gradient(145deg, #fce88c, #f4c144);
+    color: #1a1a1a;
+  }
+  
+
+
+  .card.black {
+    background: #1e1e1e;
+    border: 1px solid #333;
+  }
+  
+  

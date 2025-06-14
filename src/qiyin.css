@@ -1,0 +1,162 @@
+.qiyin-container {
+    background: linear-gradient(to bottom, #1e1e1e, #121212);
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+  }
+  
+
+
+  .qiyin-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 40px;
+  }
+
+
+  
+  .strategy-box {
+    background-color: #000;
+    border-radius: 20px;
+    padding: 20px;
+    width: 90%;
+    max-width: 900px;
+    margin: 0 auto 40px;
+    box-shadow: 0 0 20px #000;
+  }
+  
+
+
+  .strategy-heading {
+    background-color: #f5c544;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: #000;
+    font-weight: bold;
+    width: fit-content;
+    margin: 0 auto 20px;
+  }
+  
+
+
+  .strategy-items {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 20px;
+  }
+  
+
+
+  .strategy-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+    color: white;
+  }
+  
+
+
+  .strategy-card img {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    margin-bottom: 10px;
+  }
+  
+
+
+  .strategy-desc {
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    padding: 10px 20px;
+    width: fit-content;
+    margin: 0 auto;
+    font-size: 14px;
+  }
+  
+
+
+  .valyuta-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin: 40px 0;
+  }
+  
+
+
+  .val-icon {
+    font-size: 32px;
+  }
+  
+  .val-icon.orange {
+    color: orange;
+  }
+  
+  .val-icon.light {
+    color: #cccccc;
+  }
+  
+  .val-icon.gold {
+    color: gold;
+  }
+  
+  .invest-text h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+
+
+  .invest-text p {
+    font-size: 14px;
+    color: #bbbbbb;
+    max-width: 600px;
+    margin: 0 auto 30px;
+  }
+  
+
+
+  .invest-logos {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+  }
+  
+  .invest-logos img {
+    width: 80px;
+    height: auto;
+  }
+
+
+  
+  .invest-btn {
+    background-color: #f5c544;
+    color: black;
+    padding: 10px 30px;
+    border-radius: 30px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+  
+
+
+  .invest-btn:hover {
+    background-color: #ffe98d;
+  }
+  
+  .down-arrow {
+    font-size: 40px;
+    color: gold;
+    margin-top: 20px;
+  }
+  
+  

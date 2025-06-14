@@ -1,0 +1,133 @@
+.bolim-section {
+    background: linear-gradient(to right, #0f0f0f, #1a1a1a);
+    color: white;
+    padding: 60px 0;
+    font-family: sans-serif;
+  }
+  
+
+  .bolim-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 40px;
+  }
+  
+
+  .left-text {
+    position: relative;
+    flex: 1;
+    max-width: 250px;
+  }
+  
+
+  .left-text h3 {
+    font-size: 28px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 1.3;
+    margin-bottom: 40px;
+  }
+  
+
+  .left-text span {
+    color: #f8d264;
+    font-weight: bold;
+  }
+  
+  .line {
+    height: 250px;
+    width: 4px;
+    background-color: #f8d264;
+    position: absolute;
+    top: 130px;
+    left: 250px;
+    transform: translate(-50%, -50%);
+  }
+  
+  .right-text {
+    flex: 2;
+    padding-left: 60px;
+  }
+  
+
+
+  .right-text p {
+    font-size: 16px;
+    margin-bottom: 18px;
+    line-height: 1.5;
+  }
+  
+
+  .highlight {
+    color: #f8d264;
+    font-weight: bold;
+  }
+  
+
+  .video-block {
+    margin-top: 80px;
+    text-align: center;
+  }
+  
+
+  .video-block h4 {
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+  }
+
+  
+  .video-box {
+    display: inline-block;
+    position: relative;
+    border-radius: 14px;
+    overflow: hidden;
+    background: linear-gradient(135deg, #f8d264, #ffeb99);
+    padding: 5px;
+  }
+
+
+
+
+
+
+
+  
+  .video-box img {
+    width: 640px;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+  }
+  
+
+
+  .play-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 70px;
+    height: 70px;
+    background: radial-gradient(circle, #f8d264 0%, #f8b700 100%);
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 25px rgba(248, 210, 100, 0.6);
+  }
+  
+
+  
+  .play-button::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-40%, -50%);
+    border-style: solid;
+    border-width: 12px 0 12px 18px;
+    border-color: transparent transparent transparent #000;
+  }
+  
