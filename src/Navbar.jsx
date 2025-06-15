@@ -28,7 +28,7 @@ const Navbar = () => {
       <div className="navbar-right">
         <img
           src="https://flagcdn.com/w40/uz.png"
-          alt="RU"
+          alt="UZ"
           className="lang-flag"
         />
         <button className="account-btn">

@@ -12,6 +12,7 @@ import {
 
 const Footer = () => {
   const [modal, setModal] = useState("");
+  const [showAccept, setShowAccept] = useState(false); 
 
   const closeModal = () => setModal("");
 
@@ -23,34 +24,32 @@ const Footer = () => {
     switch (modal) {
       case "register":
         icon = <FaUserPlus className="modal-icon" />;
-        title = "Nichevo sebe";
-        text = "Shulani man qildimmi ey";
+        title = "Sayt boyicha fikringizni SAIDBEKGA yozing";
+        text = "Saidbek ga yozing, u sizga yordam beradi";
         break;
       case "login":
         icon = <FaLock className="modal-icon" />;
-        title = "Oh my god";
-        text = "Oh may golost ";
+        title = "Login qilish kerakmi?";
+        text = "Unutmay login qilish kerak, agar login qilmasangiz sayt ishlamaydi";
         break;
       case "check":
         icon = <FaCheckCircle className="modal-icon" />;
-        title = "Bolishi mumkinmase";
-        text = "Saidjon shakarsan shakar";
+        title = "Hammasi to‘g‘ri ishlaydi";
+        text = "Sizga hammasi to‘g‘ri ko‘rinadi, lekin bu sayt hali tayyor emas";
         break;
       case "accept":
         icon = <FaRegThumbsUp className="modal-icon" />;
-        title = "Ustoz ochopsizmi bulani";
-        text = "Boladimi ustoz";
+        title = "Hammasi soxta lekin yaxshi ishlaydi";
+        text = " Bu sayt hali tayyor emas, lekin ishlaydi";
         break;
       case "club":
         icon = <FaStar className="modal-icon" />;
-        title = "Kim biladi ";
-        text = "Bu modallarni ochopsizmi";
+        title = "Klubga a'zo bo‘lish";
+        text = " Klubga a'zo bo‘lish uchun, saytni oxirigacha o‘qib chiqing";
         break;
       default:
         return null;
     }
-
-
 
     return (
       <div className="modal-overlay" onClick={closeModal}>
@@ -58,17 +57,39 @@ const Footer = () => {
           {icon}
           <h3 className="modal-title">{title}</h3>
           <p className="modal-text">{text}</p>
-          <button className="modal-btn" onClick={closeModal}>Ortga</button>
+          <button className="modal-btn" onClick={closeModal}>
+            Ortga
+          </button>
         </div>
       </div>
     );
   };
 
+  const renderAcceptModal = () => {
+    if (!showAccept) return null;
 
+    return (
+      <div className="modal-overlay" onClick={() => setShowAccept(false)}>
+        <div className="modal" onClick={(e) => e.stopPropagation()}>
+          <FaRegThumbsUp className="modal-icon" />
+          <h2 className="modal-title">Tasdiqlang</h2>
+          <p className="modal-text">Tasdiqlandi</p>
+          <button className="modal-btn" onClick={() => setShowAccept(false)}>
+            Ok
+          </button>
+        </div>
+      </div>
+    );
+  };
+
+  const handleSubscribeClick = () => {
+    setShowAccept(true);
+  };
 
   return (
     <footer className="footer">
       {renderModal()}
+      {renderAcceptModal()}
 
       <div className="footer-logo">GIRAFFE FUND</div>
 
@@ -82,25 +103,27 @@ const Footer = () => {
       </div>
 
       <div className="footer-subscribe">
-        <input type="email" placeholder="Введите e-mail" />
-        <button>Yo olloh</button>
+        <input type="email" placeholder="Emailingizni kiriting" />
+        <button onClick={handleSubscribeClick}>Kiritish</button>
       </div>
 
       <div className="footer-icons">
-        <a href="/"><FaTelegramPlane className="social-icon" /></a>
-        <a href="/"><FaInstagram className="social-icon" /></a>
+        <a href="/">
+          <FaTelegramPlane className="social-icon" />
+        </a>
+        <a href="/">
+          <FaInstagram className="social-icon" />
+        </a>
       </div>
 
-      <div className="footer-bottom">
-        © 2025 yil Saidbek production 😁
-      </div>
+      <div className="footer-bottom">© 2025 yil Saidbek production 😁</div>
 
       <div className="footer-buttons">
-        <button onClick={() => setModal("register")}>Oqish kere</button>
-        <button onClick={() => setModal("login")}>Footergacha keldimmi</button>
-        <button onClick={() => setModal("check")}>Mani kozimga chiroyli korinopti</button>
-        <button onClick={() => setModal("accept")}>Bungacha ancha xato boldi</button>
-        <button onClick={() => setModal("club")}>Exxe bir ozimga qiyin</button>
+        <button onClick={() => setModal("register")}>Sayt</button>
+        <button onClick={() => setModal("login")}>Login</button>
+        <button onClick={() => setModal("check")}>Ishlashi</button>
+        <button onClick={() => setModal("accept")}>Foydalanish</button>
+        <button onClick={() => setModal("club")}>Klub haqida</button>
       </div>
     </footer>
   );

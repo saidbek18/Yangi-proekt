@@ -11,6 +11,9 @@ import Klub from "./klub";
 import Remix from "./remix";
 import Footer from "./Footer"
 import Modal from "./Modal"
+import Register from "./register";
+import Check from "./check";
+
 
 function App() {
   return (
@@ -26,6 +29,8 @@ function App() {
       <Remix/>
       <Footer/>
       <Modal/>
+      <Register/>
+      <Check/>
     </div>
   );
 }

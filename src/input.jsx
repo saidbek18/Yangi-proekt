@@ -9,23 +9,23 @@ const Input = () => {
       <div className="input-container">
         <div className="input-card">
           <h3>Royxatdan oting </h3>
-          <p>Baribir ishlamaydi </p>
+          <p>Va saytdan foydalaning</p>
           <form>
             <input type="text" placeholder="ism" required />
             <input type="tel" placeholder="Nomer" required />
             <input type="email" placeholder="Email" required />
-            <button type="submit">Tugma ishlmaydi</button>
+            <button type="submit">Tasdiqlash</button>
           </form>
         </div>
 
         <div className="input-text">
           <h2>
-            Korgazma<br /> ishlamaydi <span>Yuzaki sayt</span>
+            Saytimiz oz faoliyatda<br /> doim ishlaydi<span>Hammasi ishonchli</span>
           </h2>
           <p>
-            Royxatdan otib bolmaydi <b>Bepul</b>,<br />
-            Kod yozish qiyin <br />
-            ayniqsa soz topish
+            Shunchaki royxatdan otib<b>Bepul</b>,<br />
+            Foydalanishingiz mumkin <br />
+            Barchasi ishonchli
           </p>
           <div className="arrow-icon">
             <BsArrowLeft size={40} />

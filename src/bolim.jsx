@@ -10,22 +10,21 @@ const Bolim = () => {
       <div className="bolim-container">
         <div className="left-text">
           <h3>
-            Menga <br />
-            <span>ishoning</span> <br />
-            ustoz
+            Dux bolsa soqqa bor  <br />
+            <span>Bor bizda hammasi</span> <br />
+            Soqqa bor bosing
           </h3>
           <div className="line" />
         </div>
         <div className="right-text">
           <p>
-            <span className="highlight">GIRAFFE FUND</span> – Saidbek Kamolov 2009-yildan beri faoliyat yuritayotgan dasturchi
+            <span className="highlight">GIRAFFE FUND</span> – Saidbek Kamolov Frontend dasturchi tomonidan yaratilgan loyiha. Ushbu loyiha orqali siz o'z investitsiyalaringizni boshqarishingiz va foyda olishingiz mumkin.
           </p>
           <p>
-              Saidbek Kamolov bu yaxshi dasturchi lekin faqat xato qiladi ishni kopaytiradi bunga qisqartirib yozish yoqmaydida 
+              Saidbek Kamolov dasturchi, dizayner va investor sifatida o'z bilim va tajribasini ushbu platformada qo'llaydi. 
           </p>
           <p>
-Saidbek ozi dasturchi bolib tugilgan ishonmaysizda ustoz dasturchilarni orasida said dasturchi keldi desa 
-hamma vah bolishi mumkinmas deb tiz chokadi ishonmaysida hamma yalinadi manga hali nasib bolsa 
+Saidbek ozi dasturchi bolib ozini loyihalarini ommaga taqdim etadi. Ushbu loyiha orqali u o'z bilim va tajribasini boshqalar bilan bo'lishadi, shuningdek, foydalanuvchilarga investitsiya qilish imkoniyatini taqdim etadi.
           </p>
         </div>
       </div>

@@ -11,16 +11,16 @@ const Klub = () => {
       <div className="klub-center">
         <img src={logo} alt="Giraffe Logo" className="klub-logo" />
         <h2 className="klub-title">
-          Bu katta 2chi sayt <br />
-          Yopiq invesitsiya
+          Investitsiya uchun harakat qilish <br />
+          Muhimi ishonchli
         </h2>
         <p className="klub-subtext">
-          dot pot mod shaxmat
+        Hammasi ishonchli saytga kirib royxatdan oting 
         </p>
         <p className="klub-description">
-150 qator soz voyvu nachi million qtor soz yozdima vayey 
+Bepul foydalanishingiz mumkin, va ishonchli saytlar orqali investitsiya qiling.
         </p>
-        <button className="klub-button">Ustoz bu albatta xazil </button>
+        <button className="klub-button">Hammasi siz oylagandan oson</button>
       </div>
       <img src={odam2} alt="Person 2" className="klub-person right" />
     </div>

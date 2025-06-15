@@ -13,23 +13,23 @@ const Qiyin = () => {
     <div className="qiyin-container">
       <h2 className="qiyin-title">Strategiya</h2>
       <div className="strategy-box">
-        <div className="strategy-heading">Buni tuzish uchun 1kun ketti</div>
+        <div className="strategy-heading">Saytdan foydalanish </div>
         <div className="strategy-items">
           <div className="strategy-card">
             <img src={coin} alt="Криптовалюта" />
-            <p>investitsiya</p>
+            <p>Pul solish</p>
           </div>
           <div className="strategy-card">
             <img src={house} alt="Недвижимость" />
-            <p>Backend</p>
+            <p>Kopaytirish</p>
           </div>
           <div className="strategy-card">
             <img src={terminal} alt="Бизнес" />
-            <p>Biznes</p>
+            <p>Qaytarib olish</p>
           </div>
         </div>
         <div className="strategy-desc">
-          Portfolio
+          Muhimi ishonchli hammasi
         </div>
       </div>
 
@@ -40,9 +40,9 @@ const Qiyin = () => {
       </div>
 
       <div className="invest-text">
-        <h3>Iconcalar</h3>
+        <h3>Valyuta kurslar</h3>
         <p>
-          Iconcalarni va rasmlarni chaqirib chiqtim
+          Siz izlagan saytlardan biri 
         </p>
       </div>
 
@@ -54,7 +54,7 @@ const Qiyin = () => {
         <img src={one} alt="logo5" />
       </div>
 
-      <button className="invest-btn">Hammasi tartibsiz</button>
+      <button className="invest-btn">Xatoliklarga koz yumamiz</button>
     </div>
   );
 };

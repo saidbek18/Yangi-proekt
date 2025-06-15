@@ -13,9 +13,9 @@ const Hero = () => {
           <h1>Giraffe Fund</h1>
           <h2>Biz bor soqqa bor</h2>
           <p>
-            Menga buyurtma bering men ishlab sizga saytni qiberaman 
+            Bu saytdan foydalanishingiz mumkin
             <span className="highlight"> Albatta arzonga</span>.
-            <strong> Minimal bitta sayt 100ming somda</strong>
+            <strong> Birinchi depozit uchun 20%</strong>
           </p>
           <button className="hero-button">
             Bu tugma ishlamaydi <span className="arrow">➔</span>
